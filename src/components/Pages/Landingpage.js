@@ -17,7 +17,7 @@ class Landing extends Component{
             <Router>
                 {/* <div id="landing"> */}
                 
-                <h1>Welcome on WK-Dev Page</h1>
+                <h1>Tworzymy strony dla Ciebie!</h1>
                 
                 <img src="/images/image1.png" alt="image1" width="350px"/>
                 
