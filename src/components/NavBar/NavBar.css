@@ -41,8 +41,9 @@
 .nav-links:hover{
     background-color: #09FC13;
     border-radius: 4px;
-    transition: all 0.2 easy-out;
+    transition: all 0.3 easy-out;
     color: black;
+    transition: 250ms;
 }
 
 .fa-bars {
