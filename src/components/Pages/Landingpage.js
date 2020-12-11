@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
 import './Landing.css'
 import Navbar from '../NavBar/NavBar'
+import Footer from '../Footer';
 
 
 
