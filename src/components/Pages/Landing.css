@@ -3,7 +3,7 @@ h1{
     display: flex;
     justify-content: center;
     padding: 20px;
-    margin: 20px 20px 20px 20px;
+    margin: 20px 20px 20px 0px;
     font-size: 50px;
     margin-bottom: 0;
     padding-bottom: 2px;
@@ -25,4 +25,10 @@ p{
     margin: 20px auto;
     font-size: 20px;
     justify-content: center;
+}
+img{
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
