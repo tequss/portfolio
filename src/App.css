@@ -5,7 +5,37 @@
   font-family: 'Montserrat', sans-serif;
 }
 body{
-  background: #283747 ;
-  background-color: #283747;
+  /* background: #283747 ; */
+  /* background-color: #283747; */
+  background-color: #0d0d0d;
+  background: #0d0d0d;
   
+}
+
+.page {
+  position: absolute;
+  top: 100px;
+  left:0;
+  right:0;
+}
+
+/* Compnents switching animation */
+.fade-appear,
+.fade-enter {
+    opacity: 0;
+    z-index: 1;
+}
+.fade-appear-active,
+.fade-enter.fade-enter-active {
+    opacity: 1;
+    transition: opacity 300ms linear 150ms;
+}
+
+.fade-exit {
+    opacity: 1;
+}
+
+.fade-exit.fade-exit-active {
+    opacity: 0;
+    transition: opacity 150ms linear;
 }

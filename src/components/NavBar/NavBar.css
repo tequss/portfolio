@@ -1,11 +1,13 @@
 .NavbarItems{
-    background: #283747;
+    background: #0d0d0d;
     height: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
-    background-color: #283747;
+    background-color: #0d0d0d;
+    margin: auto;
+    
 }
 .Image{
     height: 70px;
@@ -30,6 +32,8 @@
     width: 70vw;
     justify-content: end;
     margin-right: 2rem;
+    border-bottom:solid 1px #09FC13 ;
+    padding-bottom: 15px;
 }
 
 .nav-links{
@@ -49,7 +53,9 @@
 .fa-bars {
     color: #fff;
 }
-
+.fa-times {
+    color: #fff;
+}
 .menu-icon {
     display: none;
 
@@ -69,14 +75,18 @@
         left: -100%;
         opacity: 1;
         transition: all 0.5 ease;
+        
+        
     }
 
     .nav-menu.active {
-        background: #2E86C1;
+        background: #0d0d0d;
         left: 0;
         opacity: 1;
         transition: all 0.5s ease;
         z-index: 1;
+        border-bottom: 0;
+        
     }
 
     .nav-links{
@@ -84,6 +94,7 @@
         padding: 2rem;
         width: 100%;
         display: table;
+       
     }
 
     .nav-links:hover {

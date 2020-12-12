@@ -5,23 +5,23 @@ import { Link } from 'react-router-dom';
 export const MenuItems = [
     {
         title: 'Home',
-        url: "/",
+        url: '/',
         cName: 'nav-links'
     },
     {
         title: 'About',
-        url: "/aboutme",
+        url: '/aboutme',
         cName: 'nav-links'
     },
     {
         title: 'Projects',
-        url: "#",
+        url: "/projects",
         cName: 'nav-links'
     },
     {
         title: 'Contact Me',
-        url: "#",
+        url: "/contactme",
         cName: 'nav-links'
     },
-    
+
 ]
