@@ -3,20 +3,47 @@
   margin: 0;
   padding: 0;
   font-family: 'Montserrat', sans-serif;
+  
 }
+/* //dodane */
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+
+/* koniec dodawania */
 body{
   /* background: #283747 ; */
   /* background-color: #283747; */
   background-color: #0d0d0d;
   background: #0d0d0d;
+  min-height: 100vh;
+
+  position: relative;
+  margin: 0;
+  padding-bottom: 6rem;
+  min-height: 100vh
+  
+  
   
 }
 
-.page {
-  position: absolute;
+
+/* .page {
+  
   top: 100px;
   left:0;
   right:0;
+} */
+.page-container{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  
+}
+.page-wrap{
+  flex:1;
 }
 
 /* Compnents switching animation */
