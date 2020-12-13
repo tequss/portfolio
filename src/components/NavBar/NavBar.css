@@ -1,11 +1,12 @@
 .NavbarItems{
-    background: #0d0d0d;
+    /* background: #0d0d0d; */
+    background: transparent;
     height: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
-    background-color: #0d0d0d;
+    /* background-color: #0d0d0d; */
     margin: auto;
     
 }

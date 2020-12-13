@@ -1,14 +1,24 @@
+.App{
+  background-image: url("wall.jpg");
+  /* background-size: cover; */
+  /* min-width: 100%; */
+  /* min-height: 100%; */
+  /* background-position: center; */
+  /* position: absolute; */
+}
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   font-family: 'Montserrat', sans-serif;
+ 
   
 }
 /* //dodane */
 html {
   height: 100%;
   box-sizing: border-box;
+  
 }
 
 
@@ -19,6 +29,7 @@ body{
   background-color: #0d0d0d;
   background: #0d0d0d;
   min-height: 100vh;
+  
 
   position: relative;
   margin: 0;

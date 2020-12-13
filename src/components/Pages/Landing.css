@@ -12,7 +12,7 @@ h1{
 }
 
 h2{
-    color: black;
+    color: white;
     display: flex;
     padding: 10px;
     /* margin: 10px auto; */
@@ -23,7 +23,7 @@ h2{
     text-align: center;
     /* border: 1px solid #09FC13; */
     /* border-radius: 20px; */
-    text-shadow: -0.5px 0 #09FC13, 0 0.5px #09FC13, 0.5px 0 #09FC13, 0 -1px #09FC13;
+    text-shadow: -1px 0 #09FC13, 0 1px #09FC13, 1px 0 #09FC13, 0 -1px #09FC13;
     
 
 }
