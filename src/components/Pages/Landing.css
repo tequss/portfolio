@@ -38,3 +38,17 @@ img{
     margin-right: auto;
     display: flex;
 }
+
+.Typewriter{
+    
+    color:white;
+    justify-self: center;
+    text-align: center;
+    font-size: 35px;
+    padding: 50px 20px 45px 20px;
+    height: 100px;
+}
+
+.section{
+    display: flex;
+}
