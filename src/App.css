@@ -1,10 +1,15 @@
 .App{
   background-image: url("wall.jpg");
-  background-size: cover;
+  /* background-size: contain; */
   min-width: 100%;
   min-height: 100%;
   /* background-position: center; */
   position: absolute;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 * {
@@ -17,8 +22,8 @@
 }
 /* //dodane */
 html {
-  height: 100%;
-  box-sizing: border-box;
+  /* height: 100%; */
+  /* box-sizing: border-box; */
   
 }
 
@@ -32,7 +37,7 @@ body{
   min-height: 100vh;
   
 
-  position: relative;
+  /* position: relative; */
   margin: 0;
   padding-bottom: 6rem;
   min-height: 100vh
