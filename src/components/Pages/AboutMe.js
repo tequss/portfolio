@@ -4,6 +4,7 @@ import './Landing.css'
 import Navbar from '../NavBar/NavBar'
 import Landing from './Landingpage';
 import Footer from '../Footer';
+import Typewriter from 'typewriter-effect';
 
 
 
@@ -17,9 +18,40 @@ class AboutMe extends Component {
             <Router>
                 <div className="page">
                     <section>
-                        <h2>Coś o nas</h2>
-                        <img src="/images/zdjecieCV1.png" alt="zdjeciewiktor" width="350px"/>
-                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
+                        <Typewriter
+                            onInit={(typewriter) => {
+                                typewriter
+                                    .typeString("Coś o mnie :)")
+                                    .pauseFor(3000)
+                                    .start();
+                            }}
+                        />
+                        <img src="/images/zdjecieCV1.png" alt="zdjeciewiktor" width="350px" />
+                        <div className="oferty">
+                        <div className="oferta">
+                        <h2>Cześć wszystkim!</h2>
+                        <p>Mam na imię Wiktor, pochodzę z małej miejscowości w województwie łódzkim.
+                        Uczę sie programowania od połowy września 2020. Moim celem jest zostanie Frontend-Developerem.
+                        Jestem osobą szybko uczącą się i szukającą
+                        nowych wyzwań. Mam szeroki wachlarz
+                        zainteresowań począwszy od szeroko
+                        pojętego sportu, dietetyki do IT. Swoją
+                        przyszłość wiążę z programowaniem,
+                        niedawno poznaną pasję, którą ciągle
+rozwijam.</p>
+                            </div>
+                            <div className="oferta">
+                        <h2>Moje umiejętności</h2>
+                        <ul>React</ul>
+                        <ul>JavaScript</ul>
+                        <ul>CSS</ul>
+                        <ul>HTML</ul>
+                            </div>
+                            
+                        
+                        </div>
+                        
+
 
                     </section>
                 </div>

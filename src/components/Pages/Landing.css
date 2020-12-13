@@ -15,11 +15,11 @@ h2{
     color: white;
     display: flex;
     padding: 20px;
-    margin: 20px auto;
-    font-size: 50px;
+    /* margin: 10px auto; */
+    font-size: 40px;
     justify-content: center;
     margin-top: 0;
-    margin: 20px 20px 20px 0px;
+    margin: 0px 20px 20px 0px;
     text-align: center;
 
 }
@@ -27,6 +27,14 @@ p{
     color: #fff9;
     padding: 20px;
     margin: 20px auto;
+    font-size: 20px;
+    justify-content: center;
+    display: flex;
+}
+ul{
+    color: #fff9;
+    padding: 4px;
+    margin: 5px auto;
     font-size: 20px;
     justify-content: center;
     display: flex;
@@ -51,4 +59,34 @@ img{
 
 .section{
     display: flex;
+}
+
+.oferty{
+    display: flex;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+    position: relative;
+    text-align: center;
+    
+
+}
+
+.oferta{
+    width: 300px;
+    padding: 20px;
+    margin: 10px;
+    flex-grow: 1;
+    
+    
+}
+.webicon{
+    height: 80px;
+    padding: 4px;
+    
+}
+
+.mobileicon{
+    height: 80px;
+    padding: 4px;
+    
 }
