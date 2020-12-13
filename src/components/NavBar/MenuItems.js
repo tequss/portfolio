@@ -9,17 +9,17 @@ export const MenuItems = [
         cName: 'nav-links'
     },
     {
-        title: 'About',
+        title: 'O mnie',
         url: '/aboutme',
         cName: 'nav-links'
     },
     {
-        title: 'Projects',
+        title: 'Projekty',
         url: "/projects",
         cName: 'nav-links'
     },
     {
-        title: 'Contact Me',
+        title: 'Kontakt',
         url: "/contactme",
         cName: 'nav-links'
     },
