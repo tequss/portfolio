@@ -34,6 +34,7 @@ p{
     font-size: 20px;
     justify-content: center;
     display: flex;
+    margin: 10px 10px 10px 10px;
 }
 ul{
     color: #fff9;
@@ -49,6 +50,7 @@ img{
     margin-left: auto;
     margin-right: auto;
     display: flex;
+    justify-self: center;
 }
 
 .Typewriter{
@@ -94,4 +96,7 @@ img{
     height: 80px;
     padding: 4px;
     
+}
+.page{
+    margin-bottom: 60px;
 }

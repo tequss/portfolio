@@ -31,7 +31,7 @@ class Landing extends Component {
 
                         {/* <h1>Tworzymy strony dla Ciebie!</h1> */}
 
-                        <img src="/images/image1.png" alt="image1" width="350px" />
+                        <img src="/images/image1.png" alt="image1" width="350px" height="350px" />
 
                         {/* <img src="svg-2.svg" alt="image1" width="100px"/> */}
                         <div className="oferty">
