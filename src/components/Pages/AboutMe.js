@@ -31,7 +31,7 @@ class AboutMe extends Component {
                         <div className="oferta">
                         <h2>Cześć wszystkim!</h2>
                         <p>Mam na imię Wiktor, pochodzę z małej miejscowości w województwie łódzkim.
-                        Uczę sie programowania od połowy września 2020. Moim celem jest zostanie Frontend-Developerem.
+                        Uczę sie programowania od połowy września 2020 i moim celem jest zostanie Frontend-Developerem.
                         Jestem osobą szybko uczącą się i szukającą
                         nowych wyzwań. Mam szeroki wachlarz
                         zainteresowań począwszy od szeroko

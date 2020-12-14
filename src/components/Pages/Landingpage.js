@@ -46,12 +46,12 @@ class Landing extends Component {
                             </div>
                             <div className="oferta">
                         <img className="mobileicon" src="/images/mobileicon.png" alt="mobile" />
-                        <h2>Pełna responsywność!</h2>
+                        <h2>Pełna responsywność</h2>
                         <p>Nasze strony działaja na każdym urządzeniu. Dopasowane do każdego typu użytkownika.</p>
                             </div>
                             <div className="oferta">
                             <img className="designicon" src="/images/design_icon.png" alt="designicon" />
-                        <h2>Nowoczesny design!</h2>
+                        <h2>Nowoczesny design</h2>
                         <p>W ramach usługi nasi projektanci
                              przygotują unikalny projekt graficzny Twojej nowej strony internetowej,
                               zaprojektowany zgodnie z aktualnymi zasadami użyteczności i najnowszymi trendami.</p>
