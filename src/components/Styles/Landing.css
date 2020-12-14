@@ -1,3 +1,5 @@
+@import "Animations.css";
+
 h1{
     color: white;
     display: flex;
@@ -100,3 +102,14 @@ img{
 .page{
     margin-bottom: 60px;
 }
+.image1{
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-name: bounceIn;
+    animation-name: bounceIn;
+    animation-timing-function: ease-in-out;
+}
+.Typewriter {
+    animation-duration: 2s;
+    animation-name: slidein;
+  }

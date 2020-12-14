@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
-import './Landing.css'
+import '../Styles/Landing.css'
 import Navbar from '../NavBar/NavBar'
 import Footer from '../Footer';
 import Typewriter from 'typewriter-effect';
@@ -30,9 +30,9 @@ class Landing extends Component {
                         />
 
                         {/* <h1>Tworzymy strony dla Ciebie!</h1> */}
-
-                        <img src="/images/image1.png" alt="image1" width="350px" height="350px" />
-
+                        <div className="image1">
+                        <img src="/images/image1.png" alt="image1" className="image1" width="350px" height="350px" />
+                        </div>
                         {/* <img src="svg-2.svg" alt="image1" width="100px"/> */}
                         <div className="oferty">
                         <div className="oferta">
