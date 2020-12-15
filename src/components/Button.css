@@ -2,13 +2,12 @@
     --primary: rgb(231, 26, 26);
 }
 
-.btn { 
+.btn {
     padding: 8px 20px;
     border-radius: 4x;
     outline: none;
     border: none;
     cursor: pointer;
-
 }
 
 .btn:hover {
@@ -23,7 +22,7 @@
     background-color: var(--primary);
 }
 
-.btn--outline{
+.btn--outline {
     background-color: transparent;
     color: rgb(8, 240, 85);
     padding: 8px 20px;

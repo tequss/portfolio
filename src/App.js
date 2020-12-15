@@ -26,14 +26,14 @@ class App extends Component {
                 classNames="fade"
               >
                 <Switch location={location}>
-                  {/* <Landing />
-        <AboutMe />
-        <Footer /> */}
+
                   <Route exact path='/' component={Landing} />
                   <Route path='/aboutme' component={AboutMe} />
                   <Route path='/projects' component={Projects} />
                   <Route path='/contactme' component={ContactMe} />
+
                   <Footer />
+
                 </Switch>
               </CSSTransition>
             </TransitionGroup>

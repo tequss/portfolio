@@ -1,6 +1,4 @@
-import Landing from '../Pages/Landingpage';
-import AboutMe from '../Pages/AboutMe';
-import { Link } from 'react-router-dom';
+
 
 export const MenuItems = [
     {

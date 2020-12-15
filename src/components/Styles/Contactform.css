@@ -1,0 +1,35 @@
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    justify-self: center;
+    margin: 0 auto;
+    
+}
+input{
+    border-radius: 10px;
+    height: 50px;
+    background-color: #09FC13;
+}
+
+label{
+    color: black;
+    display: flex;
+    padding: 5px;
+   
+    font-size: 25px;
+    
+    margin-top: 5px;
+    text-align: center;
+    /* border: 1px solid #09FC13; */
+    /* border-radius: 20px; */
+    text-shadow: -1px 0 #09FC13, 0 1px #09FC13, 1px 0 #09FC13, 0 -1px #09FC13;
+}
+
+.contact{
+    box-sizing: border-box;
+    background-color: lemonchiffon;
+    height: 320px;
+    max-width: 300px;
+    margin: 0 auto;
+}
