@@ -14,21 +14,28 @@ h1{
 }
 
 h2{
-    color: black;
+    color: #000000;
     display: flex;
     padding: 10px;
-    /* margin: 10px auto; */
     font-size: 40px;
     justify-content: center;
     margin-top: 5px;
-    /* margin: 0px 5px 5px 0px; */
     text-align: center;
-    /* border: 1px solid #09FC13; */
-    /* border-radius: 20px; */
-    text-shadow: -1px 0 #09FC13, 0 1px #09FC13, 1px 0 #09FC13, 0 -1px #09FC13;
+    /* text-shadow: -1px 0 #09FC13, 0 1px #09FC13, 1px 0 #09FC13, 0 -1px #09FC13; */
+   
+  text-shadow:
+    0 0 5px #fff,
     
+    0 0 10px#09FC13,
+    0 0 10px #09FC13,
+    0 0 10px #09FC13,
+    0 0 10px #09FC13,
+    0 0 10px #09FC13;
+    
+} 
 
-}
+
+
 p{
     color: #fff9;
     padding: 10px;
@@ -57,12 +64,13 @@ img{
 
 .Typewriter{
     
-    color:white;
+    color:#ffff;
     justify-self: center;
     text-align: center;
     font-size: 35px;
     padding: 50px 20px 45px 20px;
     height: 140px;
+    
 }
 
 .section{
@@ -113,3 +121,4 @@ img{
     animation-duration: 2s;
     animation-name: slidein;
   }
+
