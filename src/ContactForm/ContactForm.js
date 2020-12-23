@@ -10,24 +10,13 @@ class ContactForm extends Component {
       message: "",
       status: "Submit"
     };   
-  } 
-
-  handleChange(event) {
-    const field = event.target.id;
-    if (field === "name") {
-      this.setState({ name: event.target.value });
-    } else if (field === "email") {
-      this.setState({ email: event.target.value });
-    } else if (field === "message") {
-      this.setState({ message: event.target.value });
-    }
   }
   handleSubmit(event) {
     event.preventDefault();  
     this.setState({ status: "Sending" });  
     axios({
       method: "POST",
-      url: "http://localhost:5000/contact",
+      url: "http://localhost:3000/contactme",
       data: this.state,
     }).then((response) => {
       if (response.data.status === "sent") {
@@ -38,13 +27,27 @@ class ContactForm extends Component {
       }
     });
   }
+ 
+  handleChange(event) {
+    const field = event.target.id;
+    if (field === "name") {
+      this.setState({ name: event.target.value });
+    } else if (field === "email") {
+      this.setState({ email: event.target.value });
+    } else if (field === "message") {
+      this.setState({ message: event.target.value });
+    }
+  }
+ 
+
   
   render() {
     let buttonText = this.state.status;
 
     
     return (      
-        <form onSubmit={this.handleSubmit.bind(this)} method="POST">
+        <div className="contactform">
+        <form className="contact-form" onSubmit={this.handleSubmit.bind(this)} action="http://localhost:3000/contactme" method="POST">
             <div>
             <label htmlFor="name">Name:</label>
             <input
@@ -75,7 +78,8 @@ class ContactForm extends Component {
             />
             </div>
             <button type="submit">{buttonText}</button>
-        </form>      
+        </form>
+        </div>      
     );
 }
 }
