@@ -2,23 +2,44 @@
     display: flex;
     flex-direction: column;
     max-width: 300px;
-    justify-self: center;
+    justify-content: center;
     margin: 0 auto;
+    border: 1px solid #09FC13;
+    border-radius: 20px;
+    padding: 5px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
     
 }
-.contactform{
-    justify-content: center;
-}
-input{
-    border-radius: 10px;
-    height: 50px;
-    background-color: #09FC13;
-}
 
+input{
+    border: 0;
+    height: 50px;
+    width: 70%;
+    border: 0px;
+    justify-self: center;
+    background: transparent;
+    border-bottom: 2px #09FC13 solid;
+    color: #fff;
+    font-size: 20px;
+    margin: 30px;
+}
+textarea{
+    border: 0;
+    height: 50px;
+    width: 70%;
+    justify-self: center;
+    background: transparent;
+    border-bottom: 2px #09FC13 solid;
+    margin: 30px;
+    color: #ffff;
+}
 label{
     color: black;
     display: flex;
     padding: 5px;
+    justify-self: center;
    
     font-size: 25px;
     
@@ -28,11 +49,46 @@ label{
     /* border-radius: 20px; */
     text-shadow: -1px 0 #09FC13, 0 1px #09FC13, 1px 0 #09FC13, 0 -1px #09FC13;
 }
+::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: #c5ecfd;
+  }
+  ::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #c5ecfd;
+  }
+  :-ms-input-placeholder {
+    /* IE 10+ */
+    color: #c5ecfd;
+  }
 
-.contact{
+/* .contact{
     box-sizing: border-box;
     background-color: lemonchiffon;
     height: 320px;
     max-width: 300px;
     margin: 0 auto;
+} */
+
+button {
+    padding: 8px 20px;
+    border-radius: 5px;
+    border: 1px solid #09FC13;
+    outline: none;
+    cursor: pointer;
+    width:50%;
+    justify-self: center;
+    margin: 0 auto;
+    background: transparent;
+    margin-bottom: 20px;
+    color: #c5ecfd;
+}
+
+button:hover {
+    padding: 8px 20px;
+    background-color: #09FC13;
+    border-radius: 4px;
+    transition: all 0.3 easy-out;
+    color: black;
+    transition: 250ms;
 }

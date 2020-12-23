@@ -49,29 +49,32 @@ class ContactForm extends Component {
         <div className="contactform">
         <form className="contact-form" onSubmit={this.handleSubmit.bind(this)} action="https://portfolio-api.tequss.vercel.app/api/contactme" method="POST">
             <div>
-            <label htmlFor="name">Name:</label>
+            {/* <label htmlFor="name">Name:</label> */}
             <input
                 type="text"
                 id="name"
+                placeholder="Wpisz swoje imię"
                 value={this.state.name}
                 onChange={this.handleChange.bind(this)}
                 required
             />
             </div>
             <div>
-            <label htmlFor="email">Email:</label>
+            {/* <label htmlFor="email">Email:</label> */}
             <input
                 type="email"
                 id="email"
+                placeholder="Wpisz swój Email"
                 value={this.state.email}
                 onChange={this.handleChange.bind(this)}
                 required
             />
             </div>
             <div>
-            <label htmlFor="message">Message:</label>
+            {/* <label htmlFor="message">Message:</label> */}
             <textarea
                 id="message"
+                placeholder="Twoja wiadomość"
                 value={this.state.message}
                 onChange={this.handleChange.bind(this)}
                 required
