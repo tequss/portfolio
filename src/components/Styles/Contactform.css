@@ -9,7 +9,7 @@
     padding: 5px;
     text-align: center;
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 120px;
     
 }
 
@@ -37,6 +37,7 @@ textarea{
     border-bottom: 2px #09FC13 solid;
     margin: 30px;
     color: #ffff;
+    font-size: 20px;
 }
 textarea:focus{
     outline: none;
