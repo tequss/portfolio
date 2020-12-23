@@ -25,6 +25,9 @@ input{
     font-size: 20px;
     margin: 30px;
 }
+input:focus{
+    outline: none;
+}
 textarea{
     border: 0;
     height: 50px;
@@ -34,6 +37,9 @@ textarea{
     border-bottom: 2px #09FC13 solid;
     margin: 30px;
     color: #ffff;
+}
+textarea:focus{
+    outline: none;
 }
 label{
     color: black;
