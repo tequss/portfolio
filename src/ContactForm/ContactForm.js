@@ -13,17 +13,17 @@ class ContactForm extends Component {
   }
   handleSubmit(event) {
     event.preventDefault();  
-    this.setState({ status: "Sending" });  
+    this.setState({ status: "Wysyłanie" });  
     axios({
       method: "POST",
       url: "https://portfolio-api.tequss.vercel.app/api/contactme",
       data: this.state,
     }).then((response) => {
       if (response.data.status === "sent") {
-        alert("Message Sent");
-        this.setState({ name: "", email: "", message: "", status: "Submit" });
+        alert("Wiadomość wysłana");
+        this.setState({ name: "", email: "", message: "", status: "Wyślij" });
       } else if (response.data.status === "failed") {
-        alert("Message Failed");
+        alert("Wysyłanie wiadomości nie powiodło się");
       }
     });
   }
