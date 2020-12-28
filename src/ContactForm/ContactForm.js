@@ -8,7 +8,7 @@ class ContactForm extends Component {
       name: "",
       email: "",
       message: "",
-      status: "Submit"
+      status: "Wyślij"
     };   
   }
   handleSubmit(event) {
