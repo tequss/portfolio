@@ -14,24 +14,13 @@ h1{
 }
 
 h2{
-    color: #000000;
+    color: #ffffff;
     display: flex;
     padding: 10px;
     font-size: 40px;
     justify-content: center;
     margin-top: 5px;
     text-align: center;
-    /* text-shadow: -1px 0 #09FC13, 0 1px #09FC13, 1px 0 #09FC13, 0 -1px #09FC13; */
-   
-  text-shadow:
-    0 0 5px #fff,
-    
-    0 0 10px#09FC13,
-    0 0 10px #09FC13,
-    0 0 10px #09FC13,
-    0 0 10px #09FC13,
-    0 0 10px #09FC13;
-    
 } 
 
 

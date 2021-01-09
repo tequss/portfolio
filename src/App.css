@@ -1,5 +1,5 @@
 .App {
-  background-image: url("wall2.jpg");
+  /* background-image: url("wall2.jpg"); */
   min-width: 100%;
   min-height: 100%;
   position: absolute;
@@ -14,7 +14,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Montserrat', sans-serif;
+  /* font-family: 'Montserrat', sans-serif; */
 }
 
 body {
@@ -23,7 +23,8 @@ body {
   min-height: 100vh;
   margin: 0;
   padding-bottom: 6rem;
-  min-height: 100vh
+  min-height: 100vh;
+  font-family: 'Lato', sans-serif;
 }
 
 .page-container {
