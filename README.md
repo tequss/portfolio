@@ -3,7 +3,7 @@
 <br>
 
 <p align="center">
-<img src="/public/images/logonavbar.png"  alt="" raw="true" height="300px">
+<img src="/public/images/logonavbar.png"  alt="" raw="true" height="200px">
 </p>
 
 <br>
@@ -16,7 +16,7 @@
 
 <p align="center">
   <a >
-    <img src="https://github.com/tequss/portfolio/blob/master/public/images/screenshots/screenshot1.jpg?raw=true width="200px"
+    <img src="https://github.com/tequss/portfolio/blob/master/public/images/screenshots/screenshot1.jpg? raw="true" height="300px"
          alt="Screenshot">
   </a>
 </p>
