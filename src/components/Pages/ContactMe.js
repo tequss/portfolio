@@ -4,7 +4,7 @@ import '../Styles/Landing.css'
 import Footer from '../Footer';
 import Typewriter from 'typewriter-effect';
 import '../Styles/Contactform.css';
-import ContactForm from '../../ContactForm/ContactForm';
+import ContactForm from '../ContactForm/ContactForm';
 
 
 class ContactMe extends Component {

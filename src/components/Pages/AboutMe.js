@@ -16,6 +16,7 @@ class AboutMe extends Component {
             <Router>
                 <div className="page">
                     <section>
+                        <h1>
                         <Typewriter
                             onInit={(typewriter) => {
                                 typewriter
@@ -24,8 +25,9 @@ class AboutMe extends Component {
                                     .start();
                             }}
                         />
-                        <img src="/images/zdjecieCV1.png" alt="zdjeciewiktor" width="350px" />
-                        <div className="oferty">
+                        </h1>
+                        <img src="/images/zdjecieCV1.png" alt="" width="350px" />
+                        <section className="oferty">
                             <div className="oferta">
                                 <h2>Cześć wszystkim!</h2>
                                 <p>Mam na imię Wiktor, pochodzę z małej miejscowości w województwie łódzkim.
@@ -38,16 +40,18 @@ class AboutMe extends Component {
                                 niedawno poznaną pasję, którą ciągle
                                 rozwijam.</p>
                             </div>
-                            <div className="oferta">
+                            <div className="skills">
                                 <h2>Moje umiejętności</h2>
-                                <ul>React</ul>
-                                <ul>JavaScript</ul>
-                                <ul>CSS</ul>
-                                <ul>HTML</ul>
+                                <ul>
+                                <li>React</li>
+                                <li>JavaScript</li>
+                                <li>CSS</li>
+                                <li>HTML</li>
+                                </ul>
                             </div>
 
 
-                        </div>
+                        </section>
 
 
 
