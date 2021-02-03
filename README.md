@@ -16,12 +16,10 @@
 
 <p align="center">
   <a >
-    <img src="https://github.com/tequss/portfolio/blob/master/public/images/screenshots/screenshot1.jpg?raw=true height="300px"
+    <img src="https://github.com/tequss/portfolio/blob/master/public/images/screenshots/screenshot1.jpg?raw=true width="200px"
          alt="Screenshot">
   </a>
 </p>
-
-## Project Overview 🎉
 
 ## Technologies 🔧
 <ul>
