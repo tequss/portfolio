@@ -29,17 +29,13 @@
   <li>NodeMailer</li>
  <ul>
 
-
-
-
 ## Installation 💾
-<pre>
-git clone https://github.com/olafsulich/Frontlive.pl.git
+
+<pre>git clone https://github.com/tequss/portfolio.git
 
 npm install
 
-npm run dev
-</pre>
+npm run dev</pre>
 
 ## Available scripts
 
