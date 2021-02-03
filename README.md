@@ -3,7 +3,7 @@
 <br>
 
 <p align="center">
-<img src=""  alt="Logo">
+<img src="/public/images/logonavbar.png"  alt="" raw="true" height="300px">
 </p>
 
 <br>
@@ -12,7 +12,7 @@
 
 </h1>
 
-<h4 align="center">Project title</h4>
+<h4 align="center">Portfolio</h4>
 
 <p align="center">
   <a >
