@@ -16,7 +16,7 @@ class ContactForm extends Component {
     this.setState({ status: "Wysyłanie" });  
     axios({
       method: "POST",
-      url: "https://wk-dev.pl/api/contactme",
+      url: "https://portfolio-api.tequss.vercel.app/api/contactme",
       data: this.state,
     }).then((response) => {
       if (response.data.status === "sent") {
@@ -47,7 +47,7 @@ class ContactForm extends Component {
     
     return (      
         <div className="contactform">
-        <form className="contact-form" onSubmit={this.handleSubmit.bind(this)} action="https://wk-dev.pl/api/contactme" method="POST">
+        <form className="contact-form" onSubmit={this.handleSubmit.bind(this)} action="https://portfolio-api.tequss.vercel.app/api/contactme" method="POST">
             <div>
             {/* <label htmlFor="name">Name:</label> */}
             <input
